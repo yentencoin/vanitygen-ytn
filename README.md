@@ -1,24 +1,26 @@
-# Vanitygen plus plus
-Vanity address generator for BTC, ETH, LTC, TRX etc (more than 100 crypto currencies).
+# Vanitygen YTN plus plus
+Vanity address generator for Yenten etc (more than 100 crypto currencies).
+
+![01](https://github.com/user-attachments/assets/81581576-ef14-4e9d-ab65-c43df02329e8)
 
 # Usage
 List all supported crypto currencies:
 ```
 $ ./vanitygen++ -C LIST
-ETH : Ethereum : 0x
+YTN : Yenten : Y
 BTC : Bitcoin : 1
 LTC : Litecoin : L
 ...... (skip many output)
 ```
 
-Generate BTC vanity address (legacy):
+Generate YTN vanity address (legacy):
 ```
-$ ./vanitygen++ 1Love
-Difficulty: 4476342
-[1.35 Mkey/s][total 885248][Prob 17.9%][50% in 1.6s]
-Pattern: 1Love
-Address: 1Love1ZYE2nzXGibw9rtMCPq2tmg2qLtfx
-Privkey: 5KDnavUAswEzQDYY1sAwKPVMUZhZh5hhyS2MnZs8q6SEsQMk2k4
+$ ./vanitygen++ -C YTN Ybest
+Generating YTN Address
+Difficulty: 4553521
+YTN Pattern: Ybest
+YTN Address: YbestFCUk4oXsjaSZP4z3GYtbucTafT71y
+YTN Privkey: 58cw6P9u1nKku1tpmpnVKgmvbuLE3EiN4WxCrbeJGUaKGfuHjvd
 ```
 
 Generate BTC vanity address (native witness):
@@ -164,6 +166,7 @@ Many thanks to following projects:
 1. https://github.com/samr7/vanitygen, see https://bitcointalk.org/index.php?topic=25804.0
 2. https://github.com/exploitagency/vanitygen-plus (now it's 404)
 3. https://github.com/kjx98/vanitygen-eth
+4. https://github.com/10gic/vanitygen-plusplus
 
 # Known Issue
 1. oclvanitygen++ (GPU version) can't find vanity ETH address start with 0x00.
@@ -174,5 +177,8 @@ GNU Affero General Public License
 
 # Donate
 I don't have much time to maintain this project, donations will encourage me to keep going.
-1. BTC: 123456WcsbL1NRiU2H3jNSSDEp3q8M9u8t
-2. ETH: 0x123456E35147E215FBec2A1B4502C7Cf6Ecb62cD
+YTN: YXandTfYjFC7fuR8h9aRCo5ZwAz4tvbvDL
+BTC: 18pfmpfDCJvGPBaJtESV5sVMkHsySBcNnE
+LTC: LKsNumb4z6jKjMkeNTfjskSgsLgCyvRUkM
+BCH: 112h82XJSemZSonWh7GnSvNJZ9oJab77Rx
+Doge: DQJQhP5FjcoMMfk5CcfVWKaoqme8quch8A
